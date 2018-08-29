@@ -1,0 +1,103 @@
+1) get coordinates from address
+2) render map with particular coordinate as a center point (for search around some city center)
+3) zoom events callback. i.e. we need to know what area is being displayed on the map now, so we can adjust list view to match displayed map
+4) other way around, we need to tell map to show particular coordinates rectangle to show all search results from list view
+5) and main thing - show markers on map, coming from search results. and integrate popup when particular marker is clicked
+6) we will need artifacts like maps-util.js where Controller for map is rendered and some sample SPA showing how this is working
+as for 1), we need this for property creation, so when property is being created or updated we set the coordinates. will be cool feature for like show listings in 20km radius from center of copenhagen. and other map features
+
++ mapOption hae morede niazesh o bedam beshon
++ function ro taghire zoom o area
++ map init options service beshe
++ map add marker ok beshe ba hame details marker
++ be markere ijad shode ye done popup ham ezafe mishe vaghti rosh click mishe 
++ beshe ke clustering bokonim in markera ro ba on concept clustering khodam 
++ ye done search boxi bashe ke vaghti tosh search mishe bad bere o khodesh zoom kone ro on bakhsh
++ ye button bashe ke rosh mizane lat lng on map i ke tooshim o befreste
+cities be sore ye slelect bashe
+fasele 1 km tabdil beshe ba lat lang - fasele 100 metr ham hamintor
+shoa hesab kardan o function o biar to proje
+
+TASKS:
+	+ 1 ye doone khat be html ezafe kon bad push kon
+	+ 2 add kon on 2 3 ta axi o ke to system ezafe kardi o 
+	+ 3 zirsakhte khodam o tosh bootstrap 4 ezafe konam ba font hae on fontawsome jadide
+	+ 4 to zirsakhte khodam on bakhshai ke meysam zade ro ezafe kon on pain
+	+ 5 safhe avale kamel shode ro bezar to sakhtar o push kon
+	+ footer o add kon
+	+ safhe sign in o sign out o fix kon
+	+ bad beshin kolle angular hai ke ta alan zadand ro bekhon
+	+ on map o bebin bayad bezari to kodom url ha bad ke ba system rentflow kar kardi 
+	+ bad darkhast bede ke kolle model hae system ro bet bedan ta bekhoni
+	+ name map beshe map modul
+	+ 6 to angular ha ye route jadid be name map bezare o on o be on component jadidat ezafe kon
+	+ 7 safhe jadide o ham ba bootstrap 4 desgin shode bezar bala 
+	+ 8 boro on component o be sorate ye file jodae directive ezafe kon
+	9 bad boro safahate message + profile + ... ro done done bezan o be system ezafe kon
+		1 Messaging-v-1.0.jpg 
+		+ 2 SignIn-v-1.0.jpg 
+		+ 3 SignUp-v-1.0.jpg
+		+ 4 Mav-View-v-2.0.jpg
+		5 Profile-v-1.0.jpg
+		6 Rentout-v-1.0.jpg
+		7 Notifications-v-1.0.jpg
+		+ 8 Details-v-3.0.jpg
+
++ to jira bezanam
++ bad push kon bade test kardan 
++ bad bia o safhe details melk o emshab bezan
++ bad file hae directive ro ham add kon o push kon
++ bad bia o safhe map o bebin kodomas
+zabane ghazie o dorost kon
+image ro bego ke dorost pass bede
+
++ alan in file js ha ro bezar to proje
++ file hae toe property view ro ba css ha ro ham jaygozari kon
++ 1 safhe message o bedam bezane farimah
++ 2 safhe box property o dorost kon
++ 3 bakhshe js ghazie o dorost kon
++ 4 bezar taghirat o bala
++ 5 badesh boro to jira o taghirat o bede
+6 boro message o az farimah begir o bezar to proje
+7 
+
+
+I readed all the codes and im now ready to do angular thing in another parts of project
+and I try to write my codes like another angular codes style
+
+kasra works:
+	create clean classes with good names
+	create comments in classes
+	main page
+	footer
+	header
+	property-view
+	search-city
+	sign-in
+	sign-out
+
+safahate monde:
+	message
+	profile
+	Rentout
+	Notifications
+
+please note: do not specify ng-controller directive in contacts.html if you are using routes
+
+
+bugs hatef:
+	+ + ye akolad ziad pak shode
+	+ + addade 4
+	+ + ye zarre bedamesh pain
+	+ + range owner
+	+ + translations
+	+ + modal nabahse sign in signup -> listener bezarim ro atraffesh ke bere home
+	+ + navbare bala back dashte base -> back white trans 0.7 
+	+ + ro map biad dokme ha
+	+ + responsive search input
+	+ + background footer
+	+ + back safhe details nare pain
+	+ + background to mobile o ina kharabe
+	- dokme register kar nemikone
+	navbar o svg bezaram ziresh
+	tarikhe ro dorost kon boxesh o 
